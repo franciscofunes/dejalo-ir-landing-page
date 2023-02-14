@@ -6,13 +6,8 @@ const FooterCopyright = () => (
     <span role="img" aria-label="Love">
       ♥
     </span>{' '}
-    by <a target="_blank" href="https://equaldevlinks.netlify.app/">Equaldev</a>
-    {/*
-     * PLEASE READ THIS SECTION
-     * We'll really appreciate if you could have a link to our website
-     * The link doesn't need to appear on every pages, one link on one page is enough.
-     * Thank you for your support it'll mean a lot for us.
-     */}
+    por <a href="https://https://equaldevlinks.netlify.app/.com">Equaldev</a>
+    
     <style jsx>
       {`
         .footer-copyright :global(a) {
