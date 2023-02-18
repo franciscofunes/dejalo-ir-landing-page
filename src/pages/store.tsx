@@ -1,4 +1,4 @@
-import { Store } from "../templates/Store";
+import { Store } from '../templates/Store';
 
 const StorePage = () => <Store />;
 
