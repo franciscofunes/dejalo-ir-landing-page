@@ -11,5 +11,5 @@ const Store = () => (
   </div>
 );
 
-export { Store as Contact };
+export { Store };
 

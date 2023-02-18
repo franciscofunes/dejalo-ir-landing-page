@@ -12,7 +12,7 @@ const Banner = () => (
       button={
         <Link href="https://www.facebook.com/marketplace/profile/100009479834691">
           <a target="_blank">
-            <Button>Comenzar</Button>
+            <Button>Comprar</Button>
           </a>
         </Link>
       }

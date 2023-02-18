@@ -22,8 +22,8 @@ const Hero = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://wa.me/5491131127022?text=Hola!%20estoy%20interesado%20en%20tus%20productos">
-            <a target="_blank">Contacto</a>
+          <Link href="/contact">
+            <a>Contacto</a>
           </Link>
         </li>
       </NavbarTwoColumns>

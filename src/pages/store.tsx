@@ -1,5 +1,5 @@
-import { About } from "../templates/About";
+import { Store } from "../templates/Store";
 
-const StorePage = () => <About />;
+const StorePage = () => <Store />;
 
 export default StorePage;

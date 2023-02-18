@@ -1,5 +1,5 @@
-import { About } from "../templates/About";
+import { Contact } from "../templates/Contact";
 
-const ContactPage = () => <About />;
+const ContactPage = () => <Contact />;
 
 export default ContactPage;
