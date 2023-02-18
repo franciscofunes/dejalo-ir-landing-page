@@ -1,4 +1,4 @@
-import { Contact } from "../templates/Contact";
+import { Contact } from '../templates/Contact';
 
 const ContactPage = () => <Contact />;
 

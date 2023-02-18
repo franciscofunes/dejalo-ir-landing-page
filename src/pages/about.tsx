@@ -1,4 +1,4 @@
-import { About } from "../templates/About";
+import { About } from '../templates/About';
 
 const AboutPage = () => <About />;
 
