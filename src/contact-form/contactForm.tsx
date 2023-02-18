@@ -8,24 +8,56 @@ type IContactFormProps = {
 };
 
 const ContactForm = (props: IContactFormProps) => (
-  <form name="contact" method="POST" data-netlify="true">
+  <form
+    name="contact"
+    method="POST"
+    data-netlify="true"
+    className="max-w-md mx-auto"
+  >
     <input type="hidden" name="form-name" value="contact" />
-    <p>
-      <input type="text" name="firstname" id="firstname" />
-      <label htmlFor="yourname">{props.name}</label> <br />
-      <input type="text" name="name" id="yourname" />
-    </p>
-    <p>
-      <label htmlFor="youremail">{props.email}</label> <br />
-      <input type="email" name="email" id="youremail" />
-    </p>
-    <p>
-      <label htmlFor="yourmessage">{props.message}</label> <br />
-      <textarea name="message" id="yourmessage"></textarea>
-    </p>
-    <p>
-      {props.button}
-    </p>
+    <div className="mb-4">
+      <label htmlFor="firstname" className="block text-gray-700 font-bold mb-2">
+        {props.name}
+      </label>
+      <input
+        type="text"
+        name="firstname"
+        id="firstname"
+        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+      />
+    </div>
+    <div className="mb-4">
+      <label htmlFor="youremail" className="block text-gray-700 font-bold mb-2">
+        {props.email}
+      </label>
+      <input
+        type="email"
+        name="email"
+        id="youremail"
+        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+      />
+    </div>
+    <div className="mb-4">
+      <label
+        htmlFor="yourmessage"
+        className="block text-gray-700 font-bold mb-2"
+      >
+        {props.message}
+      </label>
+      <textarea
+        name="message"
+        id="yourmessage"
+        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+      ></textarea>
+    </div>
+    <div className="flex items-center justify-center">
+      <button
+        type="submit"
+        className="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+      >
+        {props.button}
+      </button>
+    </div>
   </form>
 );
 

@@ -10,7 +10,7 @@ const Form = () => (
       name="Nombre"
       email="Correo electrónico"
       message="Mensaje"
-      button={<button type="submit">Send</button>}
+      button={<button type="submit">Enviar</button>}
     />
   </Section>
 );
