@@ -10,6 +10,7 @@ type IContactFormProps = {
 const ContactForm = (props: IContactFormProps) => (
   <form
     name="contact"
+    action="/success"
     method="POST"
     data-netlify="true"
     className="max-w-md mx-auto"
