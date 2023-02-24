@@ -1,4 +1,4 @@
-import { ContactForm } from "../contact-form/contactForm";
+import { ContactForm } from "../contact-form/ContactForm";
 import { Section } from "../layout/Section";
 
 const Form = () => (

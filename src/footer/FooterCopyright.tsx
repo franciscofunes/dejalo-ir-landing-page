@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
@@ -6,8 +7,11 @@ const FooterCopyright = () => (
     <span role="img" aria-label="Love">
       ♥
     </span>{' '}
-    por <a href="https://https://equaldevlinks.netlify.app/.com">Equaldev</a>
-    
+    por <a href="https://equaldevlinks.netlify.app/">Equaldev</a>
+    <br />
+    <a href="/privacy-policy">
+      Política de privacidad
+    </a>      
     <style jsx>
       {`
         .footer-copyright :global(a) {

@@ -10,7 +10,7 @@ const Navbar = () => (
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="https://www.facebook.com/marketplace/profile/100009479834691">
-            <a target="_blank">Tienda</a>
+            <a>Tienda</a>
           </Link>
         </li>
         <li>
