@@ -1,5 +1,5 @@
-import { ContactForm } from "../contact-form/ContactForm";
-import { Section } from "../layout/Section";
+import { ContactForm } from '../contact-form/ContactForm';
+import { Section } from '../layout/Section';
 
 const Form = () => (
   <Section
