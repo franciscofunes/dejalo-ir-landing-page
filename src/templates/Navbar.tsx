@@ -9,7 +9,7 @@ const Navbar = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://www.facebook.com/marketplace/profile/100009479834691">
+          <Link href="/store">
             <a>Tienda</a>
           </Link>
         </li>
