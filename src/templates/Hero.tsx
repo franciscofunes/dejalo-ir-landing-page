@@ -19,8 +19,8 @@ const Hero = () => (
         }
         description=""
         button={
-          <Link href="https://www.facebook.com/marketplace/profile/100009479834691" >
-            <a target="_blank">
+          <Link href="/store" >
+            <a>
               <Button xl>Conocer Marketplace</Button>
             </a>
           </Link>
