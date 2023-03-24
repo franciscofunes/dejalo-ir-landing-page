@@ -17,4 +17,3 @@ export const getStaticProps: GetStaticProps<StoreProps> = async () => {
     revalidate: 1,
   };
 };
-
