@@ -38,7 +38,7 @@ export async function getProducts() {
       }));
     }
   } catch (err) {
-    err;
+    console.error(err);
   }
 
   return [];
