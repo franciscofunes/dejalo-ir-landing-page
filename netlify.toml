@@ -7,3 +7,6 @@
 
 [functions]
   included_files = ["src/**"]
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
