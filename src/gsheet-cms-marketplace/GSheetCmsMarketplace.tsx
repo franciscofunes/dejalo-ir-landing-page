@@ -11,7 +11,7 @@ const GSheetCmsMarketplace: React.FC<StoreProps> = ({ products }) => {
   return (
     <>
       {isMounted && (
-        <div key={Math.random()} className="container mx-auto py-10 px-8">
+        <div key={Math.random()} className="container mx-auto py-5 px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-4 lg:px-0">
             {products.map(({ title, description, price, href, imgHref }) => (
               <div
