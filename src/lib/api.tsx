@@ -32,7 +32,7 @@ export async function getProducts() {
       return rows.map((row) => ({
         title: row[0],
         description: marked(row[1]?.replace(/\n/g, '<br />'), { renderer }),
-        price: row[2] ?? '',
+        price: marked(row[2], { renderer }),
         href: row[3] ?? '',
         imgHref: row[4] ?? '',
       }));

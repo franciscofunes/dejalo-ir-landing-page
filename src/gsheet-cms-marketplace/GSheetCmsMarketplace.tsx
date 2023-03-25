@@ -23,8 +23,9 @@ const GSheetCmsMarketplace: React.FC<StoreProps> = ({ products }) => {
                 dangerouslySetInnerHTML={{ __html: description }}
               ></p>
               <p
-                className="text-gray-800 bold"
-                >{price}</p>                
+                className="text-gray-800 font-bold"
+                dangerouslySetInnerHTML={{ __html: price }}
+                ></p>                
               <button
                 className="bg-primary-600 hover:bg-primary-500 text-white mt-2 py-2 px-4 rounded"
                 onClick={() => window.open(href, "_blank")}
