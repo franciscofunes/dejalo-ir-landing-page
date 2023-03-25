@@ -51,14 +51,7 @@ const ContactForm = (props: IContactFormProps) => (
         className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
       ></textarea>
     </div>
-    <div className="flex items-center justify-center">
-      <button
-        type="submit"
-        className="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-      >
-        {props.button}
-      </button>
-    </div>
+    <div className="flex items-center justify-center">{props.button}</div>
   </form>
 );
 

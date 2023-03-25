@@ -31,7 +31,7 @@ export async function getProducts() {
     if (rows?.length) {
       return rows.map((row) => ({
         title: row[0],
-        description: marked(row[1]?.replace(/\n/g, '<br />'), { renderer }),
+        description: marked(row[1], { renderer }),
         price: marked(row[2], { renderer }),
         href: row[3] ?? '',
         imgHref: row[4] ?? '',
