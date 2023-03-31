@@ -2,8 +2,8 @@ import { Section } from "../layout/Section";
 
 const Iframe = () => (
   <Section
-    title="Facebook Marketplace"
-    description="Navega nuestro marketplace y descubrí todas nuestras ofertas"
+    title="Nuestros productos"
+    description="Navega nuestra tienda y descubrí todas nuestras ofertas"
   >
   </Section>
 );

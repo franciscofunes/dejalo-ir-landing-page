@@ -4,8 +4,8 @@ import { StoreProps } from "../shared/models/props";
 
 const Marketplace = ({products}: StoreProps) => (
   <Section
-    title="Facebook Marketplace"
-    description="Navega nuestro marketplace y descubrí todas nuestras ofertas"
+    title="Nuestros productos"
+    description="Navega nuestra tienda y descubrí todas nuestras ofertas"
   >
     <GSheetCmsMarketplace products={products}/>
   </Section>

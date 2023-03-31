@@ -1,5 +1,5 @@
 import { Success } from '../templates/Success';
 
-const ContactPage = () => <Success />;
+const SuccessPage = () => <Success />;
 
-export default ContactPage;
+export default SuccessPage;
