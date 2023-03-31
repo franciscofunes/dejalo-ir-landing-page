@@ -28,6 +28,11 @@ const ContactForm = (props: IContactFormProps) => {
             name="name"
             id="name"
             placeholder="Ingresa tu nombre"
+            required
+            minLength={3}
+            maxLength={50}
+            pattern="[a-zA-ZÀ-ÿ\s]+"
+            title="Por favor, ingresa un nombre válido"
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           />
         </div>
@@ -42,6 +47,9 @@ const ContactForm = (props: IContactFormProps) => {
             name="email"
             id="email"
             placeholder="Ingresa tu correo electrónico"
+            required
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            title="Por favor, ingresa un correo electrónico válido"
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           />
         </div>
@@ -56,6 +64,9 @@ const ContactForm = (props: IContactFormProps) => {
             name="phone"
             id="phone"
             placeholder="Ingresa tu télefono celular"
+            required
+            pattern="[0-9]{10}"
+            title="Por favor, ingresa un número de teléfono válido"
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           />
         </div>
@@ -71,6 +82,9 @@ const ContactForm = (props: IContactFormProps) => {
             onChange={(e) => setMessage(e.target.value)}
             id="message"
             placeholder="Ingresa tu mensaje"
+            required
+            minLength={10}
+            maxLength={500}
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           ></textarea>
         </div>
