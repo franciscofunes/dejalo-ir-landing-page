@@ -12,7 +12,7 @@ const ContactPage = () => {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    let form = {
+    const form = {
       name,
       email,
       phone,
