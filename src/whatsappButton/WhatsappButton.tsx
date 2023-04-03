@@ -9,6 +9,7 @@ const WhatsappButton = () => (
     statusMessage="Normalmente responde en 1 hora"
     placeholder="escribe un mensaje..."
     chatMessage="¡Hola! 🤝 ¿Cómo podemos ayudar?"
+    avatar="https://img.icons8.com/color/48/null/cat-profile.png"
     allowEsc
     allowClickAway
     notification
