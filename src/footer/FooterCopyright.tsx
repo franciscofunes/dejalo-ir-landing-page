@@ -9,9 +9,9 @@ const FooterCopyright = () => (
     </span>{' '}
     por <Link href="https://equaldevlinks.netlify.app/" target={'_blank'}>Equaldev</Link>
     <br />
-    <a href="/privacy-policy">
+    <Link href="/privacy-policy">
       Política de privacidad
-    </a>      
+    </Link>      
     <style jsx>
       {`
         .footer-copyright :global(a) {
