@@ -19,7 +19,7 @@ const Hero = () => (
         }
         description=""
         button={
-          <Link href="/store" >
+          <Link legacyBehavior href="/store" >
             <a>
               <Button xl>Conocer Marketplace</Button>
             </a>

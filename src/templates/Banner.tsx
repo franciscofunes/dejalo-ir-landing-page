@@ -10,7 +10,7 @@ const Banner = () => (
       title="Conoce nuestro Marketplace de facebook"
       subtitle="Todas nuestras publicaciones en oferta"
       button={
-        <Link href="https://www.facebook.com/marketplace/profile/100009479834691">
+        <Link legacyBehavior href="https://www.facebook.com/marketplace/profile/100009479834691">
           <a target="_blank">
             <Button>Entrar</Button>
           </a>
