@@ -48,6 +48,11 @@ const Footer = () => (
           </Link>
         </li>
         <li>
+          <Link legacyBehavior href="/meeting-point">
+            <a>Ubicación</a>
+          </Link>
+        </li>
+        <li>
           <Link legacyBehavior href="/contact">
             <a>Contacto</a>
           </Link>
