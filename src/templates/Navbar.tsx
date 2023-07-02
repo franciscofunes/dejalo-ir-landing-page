@@ -38,6 +38,9 @@ const Navbar = () => (
           @apply mx-2 sm:mx-4;
         }
 
+        .nav-link {
+          @apply text-lg text-gray-800;
+        }
       `}
     </style>
   </Background>  

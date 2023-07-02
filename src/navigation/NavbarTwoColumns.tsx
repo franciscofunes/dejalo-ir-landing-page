@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-
 import Link from 'next/link';
 
 type INavbarProps = {
@@ -15,8 +14,8 @@ const NavbarTwoColumns = (props: INavbarProps) => (
       </Link>
     </div>
 
-    <nav>
-      <ul className="navbar flex items-center font-medium text-xl text-gray-800">
+    <nav className="flex flex-wrap items-center">
+      <ul className="navbar flex flex-wrap font-medium text-xl text-gray-800">
         {props.children}
       </ul>
     </nav>
