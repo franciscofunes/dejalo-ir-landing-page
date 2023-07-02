@@ -14,7 +14,7 @@ const VerticalFeatures = () => (
     />
     <VerticalFeatureRow
       title="Muebles"
-      description="Mesas, sillas, todo tipo de aumeblamiento"
+      description="Mesas, sillas, todo tipo de amueblamiento"
       image="/assets/images/feature2.svg"
       imageAlt="Second feature alt text"
       reverse
